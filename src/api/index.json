@@ -1,0 +1,62 @@
+{
+	"meta": {
+		"subject": "Math",
+		"grade": "6",
+		"reference": "AL_L08_16_008",
+		"type": "MultipleChoice"
+	},
+	"data": {
+		"question":{
+					"question0":{
+						"id": 1,
+						"ques_name":"Use Euclid's division algorithm to find the HCF of 135 and 225?",
+						"pattern":"HCF",
+						 "data":{
+								"q1": 225,
+								"q2": 135,
+								"solution" :45	
+							}
+					},
+					"question1":{
+						"id": 1,
+						"ques_name":"Use Euclid's division algorithm to find the HCF of 38220 and 196?",
+						"pattern":"HCF",
+						 "data":{
+								"q1": 38220,
+								"q2": 196,
+								"solution" :45	
+							}
+					}
+				},
+
+		"step1": "Divided (a) as dividend and keping (b) as divisor get remainer(r) and quotient(q), apply the value in Euclid's division lemma a = bq + r",
+		"step2": "From the above equation take divisor (b), remainer(r) divide and get remainer(r1) and quotient(q1), now apply b=rq1+r1",
+		"step3":"From the above equation take divisor (b), remainer(r) divide and get remainer(r2) and quotient(q2), now apply b=rq2+r2",
+		"step4":"From the above equation take divisor (b), remainer(r) divide and get remainer(r3) and quotient(q3), now apply b=rq3+r3",
+		"step5":"From the above equation take divisor (b), remainer(r) divide and get remainer(r4) and quotient(q4), now apply b=rq4+r3"
+		},
+	"feedback":{
+		"postFeedback1": "Since r is not equal to 0. Therefore the steps need to continue.",
+		"postFeedback2": "Since r is equal to 0, Therefore"
+	},	
+   "template": {
+		"templateid": "Q100_W50",
+		"templateName": "MathBaseTemplate",
+		"mathjaxParser": "true",
+		"layoutDetails": {
+			"Q": "12",
+			"W": "6",
+			"A": {
+				"W": "6",
+				"width": "12",
+				"responseType": "MultipleChoice"
+			}
+		}
+	},
+	"answer": [
+		{ "label": 225, "id": "id1" },
+		{ "label": 120, "id":  "id2" },
+		{ "label": 45, "id":  "id3" },
+		{ "label": 25, "id":  "id4" }
+	  ]
+}

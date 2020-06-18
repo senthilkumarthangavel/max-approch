@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29">
+  <g id="msg_submit" transform="translate(-934 -559)">
+    <rect id="Rectangle_64" data-name="Rectangle 64" width="29" height="29" rx="14.5" transform="translate(934 559)" fill="#ec842f"/>
+    <path id="Icon_ionic-ios-send" data-name="Icon ionic-ios-send" d="M20.526,4.54,4.708,11.434a.363.363,0,0,0,.013.659L9,14.511a.69.69,0,0,0,.789-.078L18.225,7.16c.056-.047.19-.138.241-.086s-.03.185-.078.241l-7.3,8.221a.688.688,0,0,0-.069.823l2.8,4.486a.364.364,0,0,0,.655-.009L21.013,5.018A.363.363,0,0,0,20.526,4.54Z" transform="translate(935.724 560.724)" fill="#fff"/>
+  </g>
+</svg>

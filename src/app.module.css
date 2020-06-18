@@ -1,0 +1,8 @@
+.wrapper{box-shadow: 0px 0px 2px 1px #0000004f;
+    border-radius: 4px;
+    padding: 20px;
+    background: #f1f8ff;}
+
+.formwrap input{width:50px;margin:5px;display:inline-block;}
+.feild_wrap{background:#d5eaff;display:inline-block;width: 100%;max-width: 500px;}
+.inn_wrap{padding: 13px;}
